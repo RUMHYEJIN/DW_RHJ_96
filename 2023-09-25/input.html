@@ -30,16 +30,17 @@
         <br>-히든태그
         <input type="hidden" name="name" value="value" 히든태그입니다.><br>
 
-        이메일 : <input type="email " name="email"><br>
+        이메일 : <input type="email " name="email" required><br>
         URL : <input thpe="url" name="url"><br>
-        전화번호 : <input type="tel" name="tel"><br>
+        전화번호 : <input type="tel" name="tel" required pattern="[0-9]{3}-[0-9]{3,4}-[0-9]{4}" title="010-1234-5678">
+        <input type="submit" value="send"><br>
         색상 : <input type="color" name="color"><br>
         월 : <input type="month" name="month"><br>
         날짜 : <input type="date" name="date"><br>
         주 : <input type="week" name="week"><br>
         시간 : <input type="time" name="time"><br>
         지역 시간 : <input type="dateime-iocal" name="localdateime"><br>
-        숫자 : <input type="number" name="number" mim="1" max="10" step="2"><br>
+        숫자 : <input type="number" name="number" min="1" max="10" step="2"><br>
         범위 : <input type="range" name="range" min="1" max="10" step="2"><br>
 
 
