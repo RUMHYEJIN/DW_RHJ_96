@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>CSS 텍스트 정렬 예제</h1>
+    <p class="date">2013년 9월 1일</p>
+    <p class="poet">삶이 그래를 속일지라도 슬퍼하거나 노여워하지 말라
+        ...
+    </p>
+    <p><em>참고 푸시틴의 시</em></p>
+
+
+</body>
+<style>
+    h1 {
+        text-align: center;
+        color: red;
+    }
+
+    /*중앙정렬*/
+    p.date {
+        text-align: right;
+        color: indigo;
+        letter-spacing: 10px;
+        /*음수 값도 가능*/
+        word-spacing: 10px;
+    }
+
+    /*오른쪽정렬*/
+    p.date {
+        text-align: justify;
+        color: blue;
+    }
+
+    /*양쪽정렬*/
+</style>
+
+
+
+<style>
+    h1.deco {
+        text-decoration: overline;
+    }
+
+    h2 {
+        text-decoration: line-through;
+    }
+
+    h3 {
+        text-decoration: underline;
+    }
+</style>
+
+<body>
+    <h1 class="deco">텍스트 장식의 예입니다.</h1>
+    <h2>텍스트 장식의 예입니다.</h2>
+    <h3>텍스트 장식의 예입니다.</h3>
+</body>
+
+
+
+
+
+</html>
