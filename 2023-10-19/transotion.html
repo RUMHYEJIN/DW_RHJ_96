@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transotion</title>
+</head>
+,<style>
+    div {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rebeccapurple;
+        transition-property: all;
+        transition-duration: 5s;
+        /* transition-timing-function: linear; */
+        /* transition-timing-function: ease-in; */
+        /* transition-timing-function: ease-out; */
+        /* transition-timing-function: ease-in-out; */
+        transition: all 2s linear;
+    }
+
+    .rotatesteTest:hover {
+        transform-origin: 100% 0 0;
+        transform: rotate(450deg);
+    }
+
+    .scaleTest:hover {
+        transform-origin: 100% 0%;
+        transform: scaleY(2);
+    }
+
+    .skewTest:hover {
+        transform: skew(45deg, 45deg);
+    }
+
+    .translateTest:hover {
+        transform: translateY(400px);
+    }
+
+    .matrixTest:hover {
+        transform: matrix(2, 0, 0, 2, 200, 200);
+    }
+</style>
+
+<body>
+    <h1>Transition Test</h1>
+    <h3>tranition-property, transition-duration</h3>
+    <div class="rotatesteTest">rotate(45deg)</div>
+    <h3>scale</h3>
+    <div class="scaleTest">scale</div>
+    <h3>skew</h3>
+    <div class="skewTest">skew</div>
+    <h3>translateTest</h3>
+    <div class="translateTest">translateTest</div>
+    <h3>matrix</h3>
+    <div class="matrixTest">matrix</div>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</body>
+
+</html>

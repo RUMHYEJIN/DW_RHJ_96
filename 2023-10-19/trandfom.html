@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+</head>
+,<style>
+    div {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rebeccapurple;
+    }
+
+    .rotate45:hover {
+        /* transform: rotate(45deg); */
+        /* transform: rotate(90deg); */
+        /* transform: rotate(0.5turn); */
+        /* transform: rotate(-45deg); */
+        /* transform: rotateZ(-45deg) */
+        /* transform: rotateX(-45deg); */
+        transform: rotateY(180deg);
+    }
+
+    /* #rotate45:hover {
+      transform: rotate(45deg);
+    } */
+    .scaleTest:hover {
+        transform: scale(1.5, 2);
+        /* transform: scale(0.7, 0.7); */
+        /* transform: scaleX(2); */
+        transform: scaleY(2);
+    }
+
+    .skewTest:hover {
+        /* transform: skew(45deg, 45deg); */
+        /* transform: skewX(45deg); */
+        transform: skewY(45deg);
+    }
+
+    .translateTest:hover {
+        /* transform: translate(400px, 400px); */
+        /* transform: translateY(400px); */
+        transform: translateY(400px);
+    }
+
+    .matrixTest:hover {
+        transform: matrix(2, 0, 0, 2, 200, 200);
+    }
+</style>
+
+<body>
+    <h1>Transform Test</h1>
+    <h3>rotate</h3>
+    <div class="rotate45">rotate(45deg)</div>
+    <h3>scale</h3>
+    <div class="scaleTest">scale</div>
+    <h3>skew</h3>
+    <div class="skewTest">skew</div>
+    <h3>translateTest</h3>
+    <div class="translateTest">translateTest</div>
+    <h3>matrix</h3>
+    <div class="matrixTest">matrix</div>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</body>
+
+</html>
